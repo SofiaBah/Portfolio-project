@@ -1,6 +1,10 @@
+:root {
+  --main-bg-color: var(pink);
+}
+
 .intro {
   text-align: center;
-  background: rgb(222, 252, 248);
+  background: var(--main-bg-color);
   padding: 150px;
 }
 
@@ -23,7 +27,7 @@ ul {
   margin: 10px;
   padding: 0;
   overflow: hidden;
-  background-color: #fbfefe;
+  background-color: var(--main-bg-color);
 }
 
 li {
@@ -42,4 +46,8 @@ li a:hover {
   color: #0c0d0d8f;
   border-radius: 5px;
   transition-delay: 200ms;
+}
+
+.bee {
+  font-size: 50px;
 }
