@@ -4,27 +4,16 @@
   padding: 150px 20px;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 2000;
-  font-style: normal;
-  color: black;
-  -webkit-text-fill-color: rgb(
-    244,
-    244,
-    206
-  ); /* Will override color (regardless of order) */
-  -webkit-text-stroke: 1px black;
-}
+h1,
 h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
-h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+
+p {
+  font-family: "Poppins", serif;
+  font-size: 36px;
+  font-weight: bold;
 }
 ul {
   list-style-type: none;
