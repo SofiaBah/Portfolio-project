@@ -153,11 +153,8 @@ p {
 }
 nav {
   padding: 5px 0;
-  background: linear-gradient(white, rgb(243, 246, 247), white);
   font-family: var(--heading-font-family);
   font-weight: 500;
-  margin-bottom: 30px;
-  border-radius: 15px;
 }
 nav ul {
   padding: 0;
