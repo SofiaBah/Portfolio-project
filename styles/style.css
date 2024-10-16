@@ -167,3 +167,10 @@ p {
 .content p {
   margin-top: -10px;
 }
+
+@media (max-width: 960px) {
+  .content-container {
+    padding: 0;
+    text-align: center;
+  }
+}
