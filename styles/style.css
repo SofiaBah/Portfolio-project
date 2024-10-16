@@ -5,8 +5,6 @@
 }
 
 .intro {
-  text-align: center;
-
   padding: 80px;
   margin-right: 80px;
   margin-left: 80px;
@@ -23,7 +21,6 @@
     #acf0ff,
     #e3c1f4
   );
-  animation: foil 8s ease infinite;
 }
 
 .intro h1 {
@@ -134,6 +131,12 @@ p {
 }
 @media (max-width: 960px) {
   .project-container {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 960px) {
+  .intro {
     padding: 0;
     text-align: center;
   }
