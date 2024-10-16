@@ -152,10 +152,11 @@ p {
   }
 }
 nav {
-  padding: 15px 0;
+  padding: 5px 0;
   background: rgb(235, 239, 240);
   font-family: var(--heading-font-family);
   font-weight: 500;
+  margin-bottom: 30px;
 }
 nav ul {
   padding: 0;
