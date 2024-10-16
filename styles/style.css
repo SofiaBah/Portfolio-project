@@ -1,6 +1,6 @@
 :root {
   --branding-color: pink;
-  --heading-font-family: "Poppins", serif;
+  --heading-font-family: "Poppins", sans-serif;
   --border-size: 15px;
 }
 
@@ -155,6 +155,9 @@ p {
   margin-right: 20px;
 }
 .content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
   font-size: 30px;
   line-height: 2;
