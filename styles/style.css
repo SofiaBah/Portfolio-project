@@ -183,3 +183,11 @@ nav li {
 .content-creator h1 {
   font-size: 50px;
 }
+
+footer {
+  text-align: center;
+}
+.social-media {
+  color: black;
+  text-decoration: none;
+}
