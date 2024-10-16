@@ -1,5 +1,5 @@
 :root {
-  --branding-color: pink;
+  --branding-color: #67bed1;
   --heading-font-family: "Poppins", sans-serif;
   --border-size: 15px;
 }
@@ -9,34 +9,22 @@
   margin-right: 80px;
   margin-left: 80px;
   border-radius: var(--border-size);
-  background: linear-gradient(
-    48deg,
-    #e3c1f4,
-    #d9d7ed,
-    #dff7f1,
-    #acf0ff,
-    #e3c1f4,
-    #d9d7ed,
-    #dff7f1,
-    #acf0ff,
-    #e3c1f4
-  );
+  background: rgb(235, 228, 228);
   text-align: center;
 }
 
 .intro h1 {
-  font-family: "Zeyada", cursive;
+  font-family: var(--heading-font-family);
   font-weight: 400;
   font-style: bold;
   font-size: 90px;
   margin-top: auto;
-  color: #97e6f8;
-  text-shadow: 3px 4px 5px #c78de4;
+  color: #67bed1;
+  text-shadow: 3px 4px 5px #c7afd462;
 }
 .intro h2 {
   font-size: 20px;
-  color: white;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42);
+  color: gray;
   margin-top: -20px;
 }
 
@@ -61,46 +49,24 @@ li a {
   transition-delay: 200ms;
 }
 li a:hover {
-  color: white;
+  color: var(--branding-color);
   border-radius: var(--border-size);
   transition-delay: 150ms;
-  background: linear-gradient(
-    48deg,
-    #e3c1f4,
-    #d9d7ed,
-    #dff7f1,
-    #acf0ff,
-    #e3c1f4,
-    #d9d7ed,
-    #dff7f1,
-    #acf0ff,
-    #e3c1f4
-  );
 }
 
 .bee {
   font-size: 40px;
   color: var(--branding-color);
-  text-shadow: rgb(197, 135, 145) 2px 2px 2px;
+  text-shadow: rgba(0, 0, 0, 0.521) 1px 1px;
 }
 .button {
-  background: linear-gradient(
-    48deg,
-    #e3c1f4,
-    #d9d7ed,
-    #dff7f1,
-    #acf0ff,
-    #e3c1f4,
-    #d9d7ed,
-    #dff7f1,
-    #acf0ff,
-    #e3c1f4
-  );
-  color: rgb(199, 120, 171);
+  color: var(--branding-color);
   text-decoration: none;
-  border: 1px solid var(--branding-color);
+  border: 2px solid var(--branding-color);
   padding: 15px;
   border-radius: var(--border-size);
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .btn-branding {
