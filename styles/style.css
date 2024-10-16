@@ -118,7 +118,7 @@ p {
   font-family: var(--heading-font-family);
 }
 .content-container {
-  padding: 160px 50px;
+  padding: 30px 30px;
 }
 
 .content h1 {
@@ -153,6 +153,9 @@ p {
 }
 nav {
   padding: 15px 0;
+  background: rgb(235, 239, 240);
+  font-family: var(--heading-font-family);
+  font-weight: 500;
 }
 nav ul {
   padding: 0;
@@ -162,4 +165,22 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 3;
+}
+
+.content-creator {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.content-creator h3 {
+  color: var(--branding-color);
+  font-size: 25px;
+}
+.content-creator a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.content-creator h1 {
+  font-size: 50px;
 }
