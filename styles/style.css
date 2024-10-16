@@ -9,7 +9,7 @@
   margin-right: 80px;
   margin-left: 80px;
   border-radius: var(--border-size);
-  background: rgb(235, 228, 228);
+  background: linear-gradient(rgb(235, 228, 228), #f6ebda, rgb(249, 249, 248));
   text-align: center;
 }
 
