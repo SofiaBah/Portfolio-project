@@ -137,7 +137,6 @@ p {
 }
 @media (max-width: 960px) {
   .intro {
-    padding: 0;
     text-align: center;
   }
 }
