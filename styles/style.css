@@ -150,10 +150,7 @@ p {
 .content-container {
   padding: 160px 50px;
 }
-.content {
-  margin-left: 80px;
-  margin-right: 20px;
-}
+
 .content h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
