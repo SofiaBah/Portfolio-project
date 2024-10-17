@@ -13,7 +13,7 @@
 }
 
 .intro h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -25,10 +25,15 @@
 }
 .intro h2 {
   font-size: 20px;
-  color: rgb(81, 79, 79);
+  color: rgb(20, 20, 20);
   margin-top: -20px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
 }
-
+.starting {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
 ul {
   list-style-type: none;
   margin: 10px;
@@ -69,8 +74,8 @@ li a:hover {
   padding: 10px;
   border-radius: 5px;
   background: var(--branding-color);
-
-  font-weight: 400;
+  font-family: var(--heading-font-family);
+  font-weight: 300;
   font-size: 20px;
 }
 .button:hover {
@@ -190,14 +195,22 @@ nav li {
 .content-creator h3 {
   color: var(--branding-color);
   font-size: 25px;
+  font-family: var(--heading-font-family);
 }
 .content-creator a {
   text-decoration: none;
   color: black;
-  font-weight: 500;
+  font-weight: 400;
+  transition: 250ms ease-in-out;
+}
+.content-creator a:hover {
+  color: rgba(21, 18, 18, 0.6);
 }
 .content-creator h1 {
   font-size: 50px;
+  font-family: var(--heading-font-family);
+  margin-top: 40px;
+  font-weight: 600;
 }
 
 footer .email-link {
@@ -237,7 +250,7 @@ footer .button {
   padding: 10px;
   border-radius: 5px;
   background: var(--branding-color);
-
+  font-family: var(--heading-font-family);
   font-weight: 400;
   font-size: 16px;
   transition: 250ms ease-in-out;
@@ -255,4 +268,12 @@ footer .contact-box h3 {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+footer .contact-box p {
+  font-family: "Roboto", sans-serif;
+}
+.content .introduction {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 40px;
 }
