@@ -46,12 +46,12 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition-delay: 200ms;
+  transition: 150ms ease-in-out;
 }
 li a:hover {
   color: var(--branding-color);
   border-radius: var(--border-size);
-  transition-delay: 150ms;
+  transition: 150ms ease-in-out;
 }
 
 .bee {
@@ -147,8 +147,8 @@ p {
 
 @media (max-width: 960px) {
   .tunisie {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
 }
 nav {
@@ -159,7 +159,7 @@ nav {
 
 nav ul {
   padding: 0;
-  margin-right: 25px;
+  margin: 0;
   text-align: center;
 }
 
@@ -188,12 +188,27 @@ nav li {
 }
 
 footer .email-link {
-  text-align: center;
   color: black;
+
   text-decoration: none;
   font-size: 30px;
 }
+footer .email-link:hover {
+  color: var(--branding-color);
+  transition: 150ms ease-in-out;
+}
+
+footer .social-links i:hover {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
 footer {
-  text-align: center;
-  font-size: 50px;
+  margin: 60px;
+}
+footer .social-links i {
+  margin: 0px 20px;
+  font-size: 45px;
+  background: #ddf7fd;
+  padding: 10px 14px;
+  border-radius: 50%;
 }
