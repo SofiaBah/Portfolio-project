@@ -196,6 +196,9 @@ nav li {
   text-align: center;
   margin-top: -30px;
 }
+li :active {
+  color: var(--branding-color);
+}
 
 .content-creator h3 {
   color: var(--branding-color);
@@ -284,4 +287,8 @@ footer .contact-box p {
   font-family: var(--heading-font-family);
   font-weight: 600;
   font-size: 40px;
+}
+.ending {
+  font-family: "Poppins", sans serif;
+  padding: 20px 10px;
 }
