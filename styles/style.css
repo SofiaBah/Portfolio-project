@@ -45,6 +45,7 @@ li a {
   color: black;
   text-align: center;
   padding: 14px 16px;
+  margin: 0 -3px;
   text-decoration: none;
   transition: 150ms ease-in-out;
 }
