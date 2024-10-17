@@ -18,7 +18,7 @@
   font-style: bold;
   font-size: 80px;
   line-height: 1;
-  color: #67bed1;
+  color: var(--branding-color);
   text-shadow: 3px 4px 5px #c7afd462;
 }
 .intro h2 {
@@ -209,4 +209,29 @@ footer .social-links i {
   padding: 10px 14px;
   border-radius: 50%;
   color: black;
+}
+footer .contact-box {
+  background: linear-gradient(rgb(235, 228, 228), #f5efe5, rgb(249, 249, 248));
+  padding: 30px;
+  border-radius: var(--border-size);
+}
+footer .button {
+  color: var(--branding-color);
+  font-size: 18px;
+  font-weight: 600;
+  border: #67bed1 2px solid;
+  border-radius: var(--border-size);
+  padding: 10px;
+  transition: 250ms ease-in-out;
+}
+
+footer .button:hover {
+  color: #abd6de;
+  border: #abd6de 2px solid;
+  border-radius: var(--border-size);
+  padding: 10px;
+  transition: 250ms ease-in-out;
+}
+footer .contact-box h3 {
+  font-size: 30px;
 }
