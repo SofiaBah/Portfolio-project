@@ -1,6 +1,6 @@
 :root {
   --branding-color: #67bed1;
-  --heading-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
   --border-size: 15px;
 }
 
@@ -13,9 +13,11 @@
 }
 
 .intro h1 {
-  font-family: var(--heading-font-family);
-  font-weight: 400;
-  font-style: bold;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
   font-size: 80px;
   line-height: 1;
   color: var(--branding-color);
@@ -57,25 +59,38 @@ li a:hover {
 .bee {
   font-size: 40px;
   color: var(--branding-color);
-  text-shadow: rgba(0, 0, 0, 0.521) 1px 1px;
+
+  font-family: var(--heading-font-family);
 }
 .button {
-  color: var(--branding-color);
+  color: white;
   text-decoration: none;
-  border: 2px solid var(--branding-color);
-  padding: 15px;
-  border-radius: var(--border-size);
-  font-weight: 700;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+  background: var(--branding-color);
+
+  font-weight: 400;
   font-size: 20px;
+}
+.button:hover {
+  background: rgb(217, 217, 221);
+  transition: 250ms ease-in-out;
 }
 
 .btn-branding {
-  background: black;
+  background: var(--branding-color);
   color: aliceblue;
 
   text-decoration: none;
   padding: 15px;
-  border-radius: var(--border-size);
+  border-radius: 6px;
+  transition: 250ms ease-in-out;
+}
+
+.btn-branding:hover {
+  background: rgb(217, 217, 221);
+  transition: 250ms ease-in-out;
 }
 .text-center {
   margin-top: 10px;
@@ -151,6 +166,7 @@ p {
     height: 80px;
   }
 }
+
 nav {
   padding: 5px;
   font-family: var(--heading-font-family);
@@ -158,13 +174,10 @@ nav {
 }
 
 nav ul {
-  padding: 0;
   margin: 0;
-  text-align: center;
 }
 
 nav li {
-  display: inline;
   list-style: none;
   line-height: 3;
 }
@@ -189,9 +202,11 @@ nav li {
 
 footer .email-link {
   color: black;
-
+  transition: 150ms ease-in-out;
   text-decoration: none;
   font-size: 30px;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
 }
 footer .email-link:hover {
   color: var(--branding-color);
@@ -216,22 +231,28 @@ footer .contact-box {
   border-radius: var(--border-size);
 }
 footer .button {
-  color: var(--branding-color);
-  font-size: 18px;
-  font-weight: 600;
-  border: #67bed1 2px solid;
-  border-radius: var(--border-size);
+  color: white;
+  text-decoration: none;
+  border: 2px solid var(--branding-color);
   padding: 10px;
+  border-radius: 5px;
+  background: var(--branding-color);
+
+  font-weight: 400;
+  font-size: 16px;
   transition: 250ms ease-in-out;
 }
 
 footer .button:hover {
-  color: #abd6de;
-  border: #abd6de 2px solid;
-  border-radius: var(--border-size);
-  padding: 10px;
+  color: white;
+  background: rgb(185, 185, 195);
   transition: 250ms ease-in-out;
 }
 footer .contact-box h3 {
-  font-size: 30px;
+  font-size: 35px;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
