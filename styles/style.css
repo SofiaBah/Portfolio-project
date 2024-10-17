@@ -212,6 +212,9 @@ nav li {
   margin-top: 40px;
   font-weight: 600;
 }
+.tunedoor {
+  border-radius: 20px;
+}
 
 footer .email-link {
   color: black;
